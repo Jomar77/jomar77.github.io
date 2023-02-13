@@ -3,11 +3,11 @@ Welcome to my data science portfolio! I am a data scientist with experience in d
 
 ## Projects
 
-## Project 1: Hr Analytics With PowerBI
-Description: The HR Analytics with PowerBI project is focused on leveraging the power of data and visualization to gain insights into the human resources function of a company. The project aims to use PowerBI, a data visualization and business intelligence tool, to analyze and present key metrics and trends related to HR performance, such as employee turnover, recruitment, and training.
+## Project 1: Google Case Study
+Description: To be implemented
 
-## Project 2: Machine Learning Visualization
-Description: Machine learning visualization is the process of creating visual representations of data and machine learning models to better understand, analyze, and communicate their behavior and performance. These visualizations can take many forms, including plots, charts, graphs, and interactive dashboards.
+## Project 2: Hr Analytics With PowerBI
+Description: The HR Analytics with PowerBI project is focused on leveraging the power of data and visualization to gain insights into the human resources function of a company. The project aims to use PowerBI, a data visualization and business intelligence tool, to analyze and present key metrics and trends related to HR performance, such as employee turnover, recruitment, and training.
 
 
 ## Skills
