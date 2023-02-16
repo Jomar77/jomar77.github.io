@@ -2360,6 +2360,7 @@ span.emoji {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		
 	}
 
 		ul.icons li {
@@ -2369,12 +2370,14 @@ span.emoji {
 
 			ul.icons li:last-child {
 				padding-right: 0;
+				
 			}
 
 		@media screen and (max-width: 736px) {
 
 			ul.icons li {
 				padding: 0 0.75em 0 0;
+				
 			}
 
 		}
