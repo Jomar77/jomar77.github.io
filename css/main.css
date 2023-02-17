@@ -2170,14 +2170,14 @@ span.emoji {
 		display: inline-block;
 		position: relative;
 		opacity: 0.1;
-		filter: blur(8px);
+		filter: blur(4px);
   -webkit-filter: blur(8px);
 		
 	}
 
 		.image img {
 			display: block;
-			opacity: 0.5;
+			opacity: 0.1;
 			
 		}
 
