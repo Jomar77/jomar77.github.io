@@ -2977,6 +2977,31 @@ button:disabled,
   opacity: 0;
 }
 
+#banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+#banner-image{
+  width:80vw;
+  height: auto;
+}
+
+#banner-content {
+}
+
+/* @keyframes scrollBanner {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
 .tiles article:nth-child(4n - 1),
 .tiles article:nth-child(4n - 2) {
   width: 60%;
@@ -3027,6 +3052,10 @@ button:disabled,
     height: 16em;
     max-height: none;
     min-height: 0;
+  }
+  #banner-content {
+    /* Adjust the width for smaller screens */
+    width: 200%;
   }
 
   .tiles article h3 {
