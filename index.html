@@ -57,16 +57,21 @@
       <!-- Main -->
       <div id="main">
         <!-- scrolling banner -->
-        <section>
-          <div id="banner-container">
-            <div onclick="moveBanner('backward')"><p>&lt;</p></div>
-            <div id="banner-content">
-              <!-- Your banner content goes here, you can add more items -->
-              <div><img id="banner-image" src="images/pic01.png" alt="" /></div>
-              
+        <section id="banner-container">
+          <div onclick="moveBanner('backward')"><p>&lt;</p></div>
+          <div id="banner-content">
+            <!-- Your banner content goes here, you can add more items -->
+            <div class="banner-image"  >
+              <img id="banner-image" src="images/pic01.png" alt="" />
             </div>
-            <div onclick="moveBanner('forward')"><p>&gt;</p></div>
+            <div class="title">
+              <p id="banner-title">project 1</p>
+            </div>
+            <div class="text">
+              <p id="banner-text">demo2 In vel consequat magna. Praesent pellentesque ultricies neque. Morbi lacinia massa sit amet mauris ornare, a vestibulum leo pretium. Nunc at augue at libero aliquam pretium eu eget nisl. Suspendisse vitae elit vel odio convallis pretium et sit amet justo. Aliquam sit amet arcu tempor, dapibus turpis id, ornare mauris. Cras cursus nibh vehicula, varius eros venenatis, rhoncus dolor. Proin viverra et sem et eleifend. In ullamcorper dui enim. Nunc porta lacinia purus, vel facilisis mi pharetra nec. Fusce sodales quis enim eget euismod. Duis tempus faucibus sagittis. Etiam sed semper felis."</p>
+            </div>
           </div>
+          <div onclick="moveBanner('forward')"><p>&gt;</p></div>
         </section>
 
         <!-- One -->
