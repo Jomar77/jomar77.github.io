@@ -4,7 +4,7 @@ const bannerItems = document.querySelectorAll('#banner-content > div');
 function showBannerImage(index) {
     let image = document.getElementById("banner-image");
     image.style.opacity = 0;
-    
+
     setTimeout(() => {
         image.src = images[index];
         image.style.opacity = 1;
@@ -45,21 +45,21 @@ const images = [
 ];
 
 const text = [
-    "demo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque libero quis rhoncus tempus. Duis venenatis tempus dolor sed ultricies. Curabitur eget convallis justo. Aenean blandit dictum erat eget imperdiet. Phasellus non turpis vestibulum, efficitur neque convallis, vulputate turpis. Integer quam quam, dapibus vitae erat vitae, aliquam dapibus felis. Donec malesuada elit metus, eget cursus risus sollicitudin eu. Ut mattis, leo sit amet pharetra pretium, odio odio fermentum sem, sit amet mollis lorem ex nec elit. Morbi sagittis sodales sagittis. Duis eu sapien semper lacus tincidunt viverra nec nec enim. Etiam augue nisi, consequat id porttitor at, aliquam a mauris. Cras a dui quis orci convallis tincidunt. ",
-    "demo2 In vel consequat magna. Praesent pellentesque ultricies neque. Morbi lacinia massa sit amet mauris ornare, a vestibulum leo pretium. Nunc at augue at libero aliquam pretium eu eget nisl. Suspendisse vitae elit vel odio convallis pretium et sit amet justo. Aliquam sit amet arcu tempor, dapibus turpis id, ornare mauris. Cras cursus nibh vehicula, varius eros venenatis, rhoncus dolor. Proin viverra et sem et eleifend. In ullamcorper dui enim. Nunc porta lacinia purus, vel facilisis mi pharetra nec. Fusce sodales quis enim eget euismod. Duis tempus faucibus sagittis. Etiam sed semper felis.",
-    "demo3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum ipsum augue, sit amet dapibus lectus semper eu. Vivamus laoreet neque tellus, a dapibus tortor dignissim eget. Mauris nec leo non metus venenatis cursus vehicula ac turpis. Ut tincidunt fringilla velit in aliquam. Mauris sit amet lacus malesuada elit euismod convallis. Suspendisse maximus arcu vitae nunc luctus cursus. Phasellus vitae arcu quis dolor commodo fermentum sit amet nec dolor. Donec commodo arcu eu sem consequat, cursus fermentum nisi tincidunt. Ut mollis velit non magna tempus gravida.",
+    "Soon to be updated if sisipagin tsaka may pera :D. I hope you enjoyed! *Heavily* based from Denz's Project↗.",
+    "This repository contains one PowerBI file, HR_Analytics.pbix, that provides data visualization and insights for HR analytics. The report is designed to help HR departments and managers better understand key metrics and trends related to their employees.",
+    "This is a sample website for a real estate company that allows users to input the area, number of bedrooms, number of bathrooms, and location of a property, and then displays the estimated price of the property.",
 ]
 
-const project_link= [
-    "project1.html",
-    "project2.html",
-    "project3.html",
+const project_link = [
+    "https://nz-map-app.vercel.app/",
+    "https://github.com/Jomar77/HR-Analytics-PowerBI",
+    "https://github.com/Jomar77/The-Jomar-Project",
 ]
 
-const title= [
-    "demo4",
-    "demo5",
-    "demo6",
+const title = [
+    "New Zealand Map App",
+    "Human Resource Analytics Dashboard with Power BI",
+    "Tunisian House price predictor",
 ]
 function moveBanner(direction) {
     clearTimeout(autoSkipTimeout);

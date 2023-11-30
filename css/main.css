@@ -2990,10 +2990,11 @@ button:disabled,
   justify-content: center;
   align-items: center;
   flex-direction: column  ;
-  width: 50vw;
+  width: 40vw;
   height: auto;
   transition: opacity 0.5s ease-in-out;
 }
+
 .banner-image {
  grid-area: image;
 }
@@ -3019,10 +3020,18 @@ button:disabled,
     "image title"
     "image textcontent"
     "image button"; 
-  height: 700px;
+  height: 500px;
   width: 80vw;
 }
 
+#project-link {
+  text-decoration: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 #banner-container > div > p {
   font-size: 4em;
   font-weight: 1000;
