@@ -3026,6 +3026,7 @@ button:disabled,
 
 #project-link {
   text-decoration: none;
+  border: none;
   
   display: flex;
   justify-content: center;

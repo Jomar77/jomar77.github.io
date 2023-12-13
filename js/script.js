@@ -82,7 +82,7 @@ let autoSkipTimeout;
 function startAutoSkip() {
     autoSkipTimeout = setTimeout(() => {
         moveBanner('forward');
-    }, 5500);
+    }, 7000);
 
 }
 
