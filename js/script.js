@@ -53,7 +53,7 @@ const text = [
 const project_link = [
     "https://nz-map-app.vercel.app/",
     "https://github.com/Jomar77/HR-Analytics-PowerBI",
-    "https://github.com/Jomar77/The-Jomar-Project",
+    "Tunisian.html",
 ]
 
 const title = [
@@ -89,5 +89,22 @@ function startAutoSkip() {
 
 
 
+// animations.js
 
-document.addEventListener('DOMContentLoaded', startAutoSkip);
+document.addEventListener('DOMContentLoaded', function () {
+    const h1Tags = document.querySelectorAll('h1');
+    const imageContainer = document.querySelector('.image-container img');
+
+    h1Tags.forEach(h1 => {
+        h1.addEventListener('mouseover', function () {
+            const imageName = h1.textContent.toLowerCase().replace(' ', '-') + '.jpg';
+            imageContainer.src = imageName;
+            imageContainer.style.transform = 'scale(1.1)'; // Add a scaling effect on hover
+        });
+
+        h1.addEventListener('mouseout', function () {
+            imageContainer.style.transform = 'scale(1)';
+        });
+    });
+});
+
