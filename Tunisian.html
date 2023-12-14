@@ -57,12 +57,20 @@
         <!-- Section 2: Classification Model Implementation -->
         <section id="classification-model">
           <h1>Classification Model Implementation</h1>
-          <ul>
-            <li><strong>Dataset:</strong> What dataset to be used</li>
-            <li>
-              <strong>Technical Implementation:</strong> Detailed steps on
-              setting up and running the model
-            </li>
+
+          <strong>Technical Implementation:</strong>
+          I made a price per meter squared by dividing the price of the unit by
+          the area of the unit. After then, I sorted the data by location and
+          filtered by how many units per area. Areas with less than 10
+          properties where removed from the dataset. Using the standard
+          deviation of the price per m2 calculated, I was able to remove the
+          outliers in the dataset. I then used some visualisation such as
+          heatmaps to see the relationship of the features that remained.
+          Lastly, I used the following models to predict the house prices:
+          <ul class="feature">
+            <li>Linear Regression</li>
+            <li>Lasso</li>
+            <li>Decision Tree</li>
           </ul>
         </section>
 
@@ -70,8 +78,14 @@
         <section id="evaluation">
           <h1>Evaluation of the Implemented Program</h1>
           <p>
-            Discover the results and insights gained from running the
-            classification model.
+            I have compared the results that I got using the model that I made.
+            However, the difference from the tunisian real estate website and
+            the model that I made is quite big. I think that the reason for this
+            is that the dataset that I used is not updated. I also think that I
+            missed other features such economic status of the country, and other
+            features that are not included in the dataset. I think that the
+            model that I made is not suitable for predicting the house prices in
+            Tunisia.
           </p>
         </section>
 
@@ -83,7 +97,6 @@
             and the encountered issues.
           </p>
         </section>
-
       </div>
 
       <!-- Image on the right side -->
