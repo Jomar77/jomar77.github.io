@@ -12,11 +12,46 @@
       <div class="content">
         <!-- Section 1: Feature Questions -->
         <section id="feature-questions">
-          <h1>Why This Project?</h1>
+          <h1>Why This Project</h1>
           <p>
-            Explore the motivations and objectives behind the Tunisian House
-            Price Prediction project.
+            I built the project with the intention of predicting the house
+            prices of new zealand. However, I was not able to find a dataset
+            that is suitable for the project. I then decided to use a dataset
+            from Kaggle that contains house prices in Tunisia. I was able to
+            find a dataset that contains 80 features and 6000+ rows. I then
+            decided to use the dataset to predict the house prices in Tunisia.
           </p>
+        </section>
+
+        <!-- Section 2: Classification Model Implementation -->
+        <section id="classification-model">
+          <h1>Feature Engineering</h1>
+          <ul>
+            <li>
+              <strong>Dataset:</strong>
+              <a
+                href="https://www.kaggle.com/datasets/samermakni/tunisia-house-pricing"
+                >Tunisian House Price</a
+              >
+            </li>
+            <li>
+              <strong>Technical Implementation:</strong> Upon exploring the
+              dataset, I was met with 25 features which contained number of
+              bedrooms, bathrooms, and other features. I then decided to use the
+              following features to predict the house prices:
+              <ul class="feature">
+                <li>price_eur</li>
+                <li>location</li>
+                <li>Area</li>
+                <li>room</li>
+                <li>bathroom</li>
+                <li>age</li>
+                <li>state</li>
+                <li>distance_to_capital</li>
+                <li>garage</li>
+              </ul>
+            </li>
+          </ul>
         </section>
 
         <!-- Section 2: Classification Model Implementation -->
@@ -49,20 +84,11 @@
           </p>
         </section>
 
-        <!-- Section 5: Future Improvements -->
-        <section id="future-improvements">
-          <h1>Future Improvements</h1>
-          <ul>
-            <li>Add more features to improve accuracy</li>
-            <li>Explore other machine learning algorithms</li>
-            <li>Fix deployment issues and create a web application</li>
-          </ul>
-        </section>
       </div>
 
       <!-- Image on the right side -->
       <div class="image-container">
-        <img src="default-image.jpg" alt="Default Image" />
+        <img src="images/why-this-project.png" alt="Default Image" />
       </div>
     </div>
     <script src="js\script.js"></script>

@@ -97,9 +97,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     h1Tags.forEach(h1 => {
         h1.addEventListener('mouseover', function () {
-            const imageName = h1.textContent.toLowerCase().replace(' ', '-') + '.jpg';
+            const imageName = 'images/' + h1.textContent.toLowerCase().replaceAll(' ', '-') + '.png';
             imageContainer.src = imageName;
-            imageContainer.style.transform = 'scale(1.1)'; // Add a scaling effect on hover
+            imageContainer.style.transform = 'scale(1.02)'; // Add a scaling effect on hover
         });
 
         h1.addEventListener('mouseout', function () {
