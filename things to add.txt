@@ -42,9 +42,43 @@ machine learning
     - 3. applied the model predict the digit drawn by the user
  - Stable Diffusion (stabilityai/stable-diffusion-xl-base-1.0)
     - tried to run a model from huggingface but was not able to run it due to cuda 
-    - runned it via colab
-
-
+    - runned it via colaboratory
 
 (natural language processing)
- - 
+ - Text Summarization  (TF-IDF)
+    - used nltk to tokenize the words and sentences
+    - used the frequency of the words to rank the sentences
+    - Creating a dictionary to keep the score of each sentence
+    - storing the sentences into a summary
+
+(Data Analysis)
+ - HR Analytics (Power BI)
+        - Data Gathering
+            - Data from Kaggle
+        - Feature engineering
+            - Feature selection
+            - Feature extraction using DAX
+        - Dashboarding
+            - Creating a dashboard using Power BI
+
+(Voice Cloning)
+ - used Eleven to clone my voice
+    - 1. recorded my voice
+    - 2. trained the model
+    - 3. generated the voice\
+
+(Wev Development)
+ - New Zealand Travel Map using React
+    - 1. created a website using react
+    - 2. deployed it using Vercel
+    - 3. Used for ranking how much you have traveled around new zealand
+ - Ecommerce website 
+    - Basic website using html,css, and js
+    - Showcased the products sold by the Grocery store
+    - School project
+ - Portfolio website
+    - Basic website using html,css, and js
+    - Showcased my projects
+    - Showcased my skills
+    - Showcased my resume
+    - Showcased my contact details
