@@ -1,0 +1,50 @@
+machine learning 
+(supervised learning)
+ - lotto prediction project 
+    - 1. data preprocessing
+        - data scraping from lottoresults.co.nz
+        - data cleaning by removing powerball and strike
+    - 2. modelling
+        - 2.1. train test split
+        - 2.2. model selection
+            - 2.2.1. logistic regression
+            - 2.2.6. k-nearest neighbors
+        - 2.3. model evaluation
+            - 2.3.1. accuracy
+            - 2.3.2. descriptive statistics
+ - Tunisian house price prediction
+    - 1. data preprocessing
+        - data from kaggle
+        - data cleaning
+            - removing outliers
+            - removing null values
+    - 2. feautre engineering
+        - 2.1. feature selection
+            - 2.1.1. correlation matrix via heatmap
+            - 2.1.2. feature importance
+    - 2. modelling
+        - 2.1. train test split
+        - 2.2. model selection
+            - 2.2.1. linear regression
+            - 2.2.2. decision tree
+            - 2.2.3. lasso regression
+        - 2.3. model evaluation
+            - 2.3.2. mean squared error
+            - 2.3.3. root mean squared error
+
+(computer vision, image classification, image generation)
+ - hand tracking digit recognition
+    - 1. using mediapipe for hand landmarks
+    - 2. adjusting the volume of the computer
+ - hand written digit recognition
+    - 1. trained a model using mnist dataset
+    - 2. used the sequential model to predict the digit drawn by the user
+    - 3. applied the model predict the digit drawn by the user
+ - Stable Diffusion (stabilityai/stable-diffusion-xl-base-1.0)
+    - tried to run a model from huggingface but was not able to run it due to cuda 
+    - runned it via colab
+
+
+
+(natural language processing)
+ - 
