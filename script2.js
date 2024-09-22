@@ -1,6 +1,6 @@
-const imageFolder = 'images'; // Path to your image folder
-const imageCount = 10; // Number of images in the folder
-const rows = [document.getElementById('row1'), document.getElementById('row2'), document.getElementById('row3')];
+const imageFolder = 'images/erica-pics'; // Path to your image folder
+const imageCount = 69; // Number of images in the folder
+const rows = [document.getElementById('row1'), document.getElementById('row2'), document.getElementById('row3'), document.getElementById('row4'), document.getElementById('row5')];
 
 function getRandomImage() {
     const randomIndex = Math.floor(Math.random() * imageCount) + 1;

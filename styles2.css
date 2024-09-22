@@ -19,17 +19,17 @@ body {
 
 .row {
     display: flex;
-    width: 200%; /* Double the width to accommodate duplicate images */
+    width: 200%; 
     overflow: hidden;
     white-space: nowrap;
 }
 
 .row img {
     width: 200px;
-    height: 250px;
+    height: 150px;
     object-fit: cover;
-    margin: 0; /* Remove margins */
-    padding: 0; /* Remove padding */
+    margin: 0;
+    padding: 0; 
 }
 
 @keyframes slide-left {
