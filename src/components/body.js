@@ -3,8 +3,6 @@ import React from 'react';
 function Body() {
     return (
         <div>
-
-            
             <div id="wrapper">
 
                 <header id="header" className="alt">
@@ -23,8 +21,6 @@ function Body() {
                         <li><a href="contacts.html">Contacts</a></li>
                     </ul>
                 </nav>
-
-
                 <section id="banner" className="major">
                     <div className="inner">
                         <header className="major">
@@ -71,7 +67,7 @@ function Body() {
                     <section id="one" className="tiles">
                         <article>
                             <span className="image">
-                                <img src="images/2024.jfif" alt="" />
+                                <img src="./images/2024.jfif" alt="" />
                             </span>
                             <header className="major">
                                 <h3><a href="2024.html" className="link">2024 Projects</a></h3>
@@ -80,7 +76,7 @@ function Body() {
                         </article>
                         <article>
                             <span className="image">
-                                <img src="images/2023.png" alt="" />
+                                <img src="./images/2023.png" alt="" />
                             </span>
                             <header className="major">
                                 <h3><a href="2023.html" className="link">2023 Projects</a></h3>
@@ -89,7 +85,7 @@ function Body() {
                         </article>
                         <article>
                             <span className="image">
-                                <img src="images/2022.png" alt="" />
+                                <img src="./images/2022.png" alt="" />
                             </span>
                             <header className="major">
                                 <h3><a href="2022.html" className="link">2022 Projects</a></h3>
@@ -98,7 +94,7 @@ function Body() {
                         </article>
                         <article>
                             <span className="image">
-                                <img src="images/2021.png" alt="" />
+                                <img src="./images/2021.png" alt="" />
                             </span>
                             <header className="major">
                                 <h3><a href="2021.html" className="link">2021 Projects</a></h3>
@@ -180,39 +176,6 @@ function Body() {
                         </section>
                     </div>
                 </section>
-
-
-                <footer id="footer">
-                    <div className="inner">
-                        <ul className="icons">
-                            <li>
-                                <a
-                                    href="https://twitter.com/_Cosmeownaut"
-                                    className="fa brands icon solid alt fa-twitter"
-                                ></a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.instagram.com/_cheshire.art/"
-                                    className="fa brands icon solid alt fa-instagram"
-                                ></a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://github.com/Jomar77"
-                                    className="fa brands icon solid alt fa-github"
-                                ></a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.linkedin.com/in/jomnacorda/"
-                                    className="fa brands icon solid alt fa-linkedin"
-                                ></a>
-                            </li>
-                        </ul>
-                    </div>
-                </footer>
-
 
                 <script src="js\script.js"></script>
                 <script src="js\jquery.min.js"></script>
