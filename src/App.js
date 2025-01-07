@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './main.css';
 import './App.css';
+import './js/main.js';
 
 
 import Header from './components/Header';
