@@ -4,16 +4,18 @@ import './App.css';
 import './js/main.js';
 
 
-import Header from './components/Header';
-import Body from './components/Body';
-import Footer from './components/Footer';
+
+import Banner from './components/Banner.js';
+import Tiles from './components/Tiles.js';
+import Layout from './components/Layout.js';
 
 function App() {
   return (
     <div className="Body">
-      <Header />
-      <Body />
-      <Footer />
+      <Layout>
+      <Banner />
+      <Tiles />
+    </Layout>
     </div>
   );
 }
