@@ -35,7 +35,7 @@ function ProjectTiles() {
           </span>
           <header className="major">
             <h3>
-              <Link to={`/${project.year}.html`} className="link">
+              <Link to={`/${project.year}`} className="link">
                 {project.year} Projects
               </Link>
             </h3>

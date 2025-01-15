@@ -6,6 +6,7 @@ import ProjectCarousel from './ProjectCarousel';
 import ProjectTiles from './Tiles';
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function Layout() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -32,6 +33,7 @@ function Layout() {
         <About />
       </div>
       <Contact />
+      <Footer />
     </div>
   );
 }

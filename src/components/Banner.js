@@ -23,10 +23,10 @@ const Banner = () => {
     <section id="banner" className="major" ref={bannerRef}>
       <div className="inner">
         <header className="major">
-          <h1>Hi, my name is Forty</h1>
+          <h1>Hi, my name is Jom</h1>
         </header>
         <div className="content">
-          <p>A responsive site template by HTML5 UP</p>
+          <p>Here's my projects throughout the years.</p>
           <ul className="actions">
             <li>
               <a href="#one" className="button next scrolly">
