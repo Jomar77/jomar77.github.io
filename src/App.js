@@ -4,24 +4,16 @@ import './App.css';
 import './js/main.js';
 
 import Layout from './components/Layout.js';
+import ProjectDetails from './components/ProjectDetails.js';
+import { Route, Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="Body">
-      <Layout />
-
-      <Router>
-        <Routes>
-          {/* Route for the main project tiles page */}
-          <Route path="/" element={<Layout/>} />
-
-          {/* Dynamic route for each year's project page */}
-          <Route path="/:2021" element={<Page2021 />} />
-        </Routes>
-      </Router>
-    </div>
-
-
+ 
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="/:year" element={<ProjectDetails />} />
+      </Routes>
 
   );
 }
