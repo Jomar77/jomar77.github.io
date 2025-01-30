@@ -98,8 +98,13 @@ menu,
 nav,
 section {
   display: block;
+
 }
 
+footer{
+  padding-bottom: 3vh;
+
+}
 body {
   line-height: 1;
 }
@@ -3578,6 +3583,48 @@ body.is-preload #header.alt {
     right: 0;
   }
 }
+
+/* Bottom Nav */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App.css */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: rgb(36, 41, 67);
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-arrow:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
 
 /* Banner */
 

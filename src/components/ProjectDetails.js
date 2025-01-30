@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import Bottom_Nav from './Bottom_Nav';
 import { useParams } from 'react-router-dom';
 
 
@@ -154,6 +155,7 @@ function ProjectDetails() {
           ))}
         </section>
       </div>
+      <Bottom_Nav />
       <Footer />
     </div>
   );  
