@@ -1,44 +1,36 @@
-import { useParams, useNavigate } from 'react-router-dom';
 
-const Bottom_Nav = () => {
+import { BrowserRouter as Router, Route, Routes, useParams, useNavigate } from 'react-router-dom';
+const NavArrows = () => {
     const { year } = useParams();
     const navigate = useNavigate();
-
-    const handlePrevious = () => {
-        const prevYear = parseInt(year) - 1;
-        prevYear >= 2021 ? navigate(`/${prevYear}`) : navigate('/');
-    };
-
-    const handleNext = () => {
-        const nextYear = parseInt(year) + 1;
-        nextYear <= 2025 && navigate(`/${nextYear}`);
-    };
-
+  
     return (
+      <div className="bottom-nav">
+        {/* Left Arrow */}
+        <button
+          onClick={() => {
+            if (year > 2021) {
+              navigate(`/${Number(year) - 1}`);
+            } else {
+              navigate('/'); // Go home from /2021
+            }
+          }}
+          disabled={!year} // Only disabled on home page
+        >
+          ←
+        </button>
 
-        <div>
-
-
-            {/* Bottom Navigation (ALWAYS VISIBLE) */}
-            <div className="bottom-nav">
-                <button
-                    onClick={handlePrevious}
-                    disabled={parseInt(year) === 2021}
-                >
-                    &#8592; {/* Left Arrow */}
-                </button>
-                <div className="content">
-                    <h4>Current Page: {year}</h4>
-                </div>
-                <button
-                    onClick={handleNext}
-                    disabled={parseInt(year) === 2025}
-                >
-                    &#8594; {/* Right Arrow */}
-                </button>
-            </div>
-        </div>
+        <h4>{year || 'Home'}</h4>
+  
+        {/* Right Arrow */}
+        <button
+          onClick={() => navigate(`/${Number(year) + 1}`)}
+          disabled={year >= 2025}
+        >
+          →
+        </button>
+      </div>
     );
-};
+  };
 
-export default Bottom_Nav;
+  export default NavArrows;
