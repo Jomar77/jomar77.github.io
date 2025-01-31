@@ -8,7 +8,7 @@ function Contact() {
     // Replace with your EmailJS credentials
     emailjs.sendForm(
       'service_dj11to6', 
-      'template_jsa96z8', 
+      'template_5rsyt7z', 
       e.target, 
       'IoonUONJlNHstpftp'
     )
