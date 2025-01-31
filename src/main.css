@@ -2990,6 +2990,8 @@ button:disabled,
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 2vh 0;
+  margin: 2vh 0;
 }
 
 #banner-image {
