@@ -10,8 +10,23 @@ function ProjectCarousel() {
       title: 'New Zealand Map App',
       text: 'Soon to be updated if sisipagin tsaka may pera :D. I hope you enjoyed! *Heavily* based from Denz\'s Project↗.',
       link: 'https://nz-map-app.vercel.app/'
+    },
+    {image: './images/pic02.jpg',
+      title: 'Tunisian House Price prediction',
+      text: 'A project that predicts house prices in Tunisia using machine learning models.',
+      link: 'http://ec2-52-68-24-183.ap-northeast-1.compute.amazonaws.com/'
+    },
+    {image: './images/pic05.png',
+      title: 'Flight Booking System',
+      text: 'A project that simulates a flight booking system made with Jade Language.',
+      link: 'https://github.com/Jomar77/JADE-FLIGHT-BOOKING'
+    },
+    {image: './images/pic06.png',
+      title: 'Text Summarization',
+      text: 'A project that summarizes text using the BERT approach.',
+      link: 'https://github.com/Jomar77/textSummarization'
     }
-    // Add more projects as needed
+    
   ];
 
   const moveBanner = (direction) => {

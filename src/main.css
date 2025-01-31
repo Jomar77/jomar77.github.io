@@ -2305,7 +2305,10 @@ a.icon.alt:active:before {
 
 .image img {
   display: block;
-  opacity: 0.1;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .image.left,
@@ -2902,7 +2905,14 @@ button:disabled,
 }
 
 .tiles article .image {
-  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 100;
+  transition: opacity 0.5s ease;
+  z-index: 2;
 }
 
 
@@ -2994,6 +3004,13 @@ button:disabled,
 
 .banner-image {
  grid-area: image;
+  
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .title {
