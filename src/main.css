@@ -4186,3 +4186,39 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   visibility: visible;
 }
+
+
+
+/* Added styles for Showcase component */
+.showcase-container {
+  display: flex;
+  height: 100vh;
+}
+
+.project-list {
+  width: 20vw;
+  background: #f0f0f0;
+  overflow-y: auto;
+}
+
+.project-list ul {
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+}
+
+.project-item {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  cursor: pointer;
+  background: transparent;
+}
+
+.project-item.active {
+  background: #ddd;
+}
+
+.project-detail {
+  flex: 1;
+  padding: 2em;
+}
