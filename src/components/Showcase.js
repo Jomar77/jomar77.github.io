@@ -1,39 +1,23 @@
 // src/Showcase.js
 import React, { useState } from 'react';
+import { projectsByYear } from '../data/projects';
 
-const projects = [
-  {
-    id: 1,
-    title: 'Project A',
-    description: 'Description for project A',
-    image: 'images/projectA.png',
-    url: 'https://example.com/projectA'
-  },
-  {
-    id: 2,
-    title: 'Project B',
-    description: 'Description for project B',
-    image: 'images/projectB.png',
-    url: 'https://example.com/projectB'
-  },
-  {
-    id: 3,
-    title: 'Project C',
-    description: 'Description for project C',
-    image: 'images/projectC.png',
-    url: 'https://example.com/projectC'
-  },
-];
+// Aggregate all projects from projectsByYear
+const allProjects = Object.values(projectsByYear).flat().map((project, index) => ({
+  ...project,
+  // assign a unique id if not present
+  id: project.id || index + 1,
+}));
 
 const Showcase = () => {
-  const [selectedProject, setSelectedProject] = useState(projects[0]);
+  const [selectedProject, setSelectedProject] = useState(allProjects[0]);
 
   return (
     <div className="showcase-container">
       {/* Left Panel: Projects List */}
       <div className="project-list">
         <ul>
-          {projects.map((project) => (
+          {allProjects.map((project) => (
             <li
               key={project.id}
               className={`project-item ${project.id === selectedProject.id ? 'active' : ''}`}

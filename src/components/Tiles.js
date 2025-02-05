@@ -1,7 +1,7 @@
 // components/ProjectTiles.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../main.css';
+import '../css/main.css';
 
 function ProjectTiles() {
   const projects = [

@@ -1,6 +1,6 @@
 
-import './main.css';
-import './App.css';
+import './css/main.css';
+import './css/index.css';
 import './js/main.js';
 
 import Layout from './components/Layout.js';
