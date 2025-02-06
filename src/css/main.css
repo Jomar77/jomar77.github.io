@@ -4161,24 +4161,20 @@ body.is-preload #banner > .inner {
   opacity: 1;
 }
 
-body.is-ie #menu {
+ .visible  {
   background: rgba(42, 47, 74, 0.975);
+  opacity: 1;
+  visibility: visible;
 }
 
-body.is-menu-visible #wrapper {
+.visible #wrapper {
   -moz-filter: blur(0.5em);
   -webkit-filter: blur(0.5em);
   -ms-filter: blur(0.5em);
   filter: blur(0.5em);
 }
 
-body.is-menu-visible #menu {
-  pointer-events: auto;
-  opacity: 1;
-  visibility: visible;
-}
-
-body.is-menu-visible #menu .inner {
+.visible .inner {
   -moz-transform: none;
   -webkit-transform: none;
   -ms-transform: none;

@@ -12,7 +12,9 @@ function Navigation({ isMenuVisible, setIsMenuVisible }) {
         <nav>
           <a href="#menu" onClick={(e) => {
             e.preventDefault();
+            
             setIsMenuVisible(true);
+            console.log(isMenuVisible);
           }}>Menu</a>
         </nav>
       </header>
@@ -20,7 +22,8 @@ function Navigation({ isMenuVisible, setIsMenuVisible }) {
       <nav id="menu" className={isMenuVisible ? 'visible' : ''}>
         <ul className="links">
           <li><Link to="/" onClick={() => setIsMenuVisible(false)}>Home</Link></li>
-          <li><Link to="/contacts" onClick={() => setIsMenuVisible(false)}>Contacts</Link></li>
+          <li><Link to="/Demo" onClick={() => setIsMenuVisible(false)}>Contacts</Link></li>
+          <li><Link to="/Projects" onClick={() => setIsMenuVisible(false)}>Projects</Link></li>
         </ul>
       </nav>
     </>
