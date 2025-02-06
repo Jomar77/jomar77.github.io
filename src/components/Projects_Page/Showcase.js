@@ -1,6 +1,6 @@
 // src/Showcase.js
 import React, { useState } from 'react';
-import { projectsByYear } from '../data/projects';
+import { projectsByYear } from '../../data/projects';
 
 // Aggregate all projects from projectsByYear
 const allProjects = Object.values(projectsByYear).flat().map((project, index) => ({

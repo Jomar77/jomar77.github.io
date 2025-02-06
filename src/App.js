@@ -5,7 +5,7 @@ import './js/main.js';
 
 import Layout from './components/Layout.js';
 import ProjectDetails from './components/ProjectDetails.js';
-import Showcase from './components/Showcase.js';
+import Showcase from './components/Projects_Page/Showcase.js';
 import { Route, Router, Routes } from 'react-router-dom';
 
 function App() {
