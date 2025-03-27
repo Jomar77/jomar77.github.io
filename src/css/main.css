@@ -4165,6 +4165,7 @@ body.is-preload #banner > .inner {
   background: rgba(42, 47, 74, 0.975);
   opacity: 1;
   visibility: visible;
+  z-index: 10001;
 }
 
 .visible #wrapper {

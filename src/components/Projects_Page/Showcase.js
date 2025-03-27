@@ -2,10 +2,8 @@
 import React, { useState } from 'react';
 import { projectsByYear } from '../../data/projects';
 
-// Aggregate all projects from projectsByYear
 const allProjects = Object.values(projectsByYear).flat().map((project, index) => ({
   ...project,
-  // assign a unique id if not present
   id: project.id || index + 1,
 }));
 
@@ -14,7 +12,6 @@ const Showcase = () => {
 
   return (
     <div className="showcase-container">
-      {/* Left Panel: Projects List */}
       <div className="project-list">
         <ul>
           {allProjects.map((project) => (
@@ -29,7 +26,6 @@ const Showcase = () => {
         </ul>
       </div>
 
-      {/* Right Panel: Highlighted Project */}
       <div className="project-detail">
         <h1>{selectedProject.title}</h1>
         <p>{selectedProject.description}</p>

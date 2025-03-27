@@ -12,7 +12,6 @@ function Layout() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   useEffect(() => {
-    // Remove preload class after initial load
     const timer = setTimeout(() => {
       document.body.classList.remove('is-preload');
     }, 100);
