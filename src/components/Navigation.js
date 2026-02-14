@@ -18,7 +18,7 @@ function Navigation({ isMenuVisible, setIsMenuVisible }) {
         </nav>
       </header>
 
-      <nav id="menu" className={isMenuVisible ? 'visible' : ''}>
+      <nav id="menu" className={isMenuVisible ? 'visible' : 'invisible'}>
         <ul className="links">
           <li><Link to="/" onClick={() => setIsMenuVisible(false)}>Home</Link></li>
           <li><Link to="/Demo" onClick={() => setIsMenuVisible(false)}>Contacts</Link></li>

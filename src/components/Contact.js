@@ -5,7 +5,6 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace with your EmailJS credentials
     emailjs.sendForm(
       'service_dj11to6',
       'template_5rsyt7z',
